@@ -10,7 +10,7 @@
         <result column="feedback_content" jdbcType="VARCHAR" property="content"/>
         <result column="feedback_time" jdbcType="TIMESTAMP" property="time"/>
         <result column="slove" jdbcType="VARCHAR" property="slove"/>
-        <result column="phone" jdbcType="INTEGER" property="phone"/>
+        <result column="phone" jdbcType="VARCHAR" property="phone"/>
     </resultMap>
 
     <select id="feedList" resultType="com.feedback.service.data.FeedBackEntity">

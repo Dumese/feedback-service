@@ -31,7 +31,7 @@ public class AddFeedBackDTO {
      * 电话号码
      */
     @TableField("phone")
-    private int phone;
+    private String phone;
     /**
      * 反馈类型
      */
