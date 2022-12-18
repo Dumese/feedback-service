@@ -19,7 +19,7 @@ public class AddFeedBackDTO {
      * 用户名
      */
     @ApiModelProperty("用户名")
-    @NotNull(message = "用户名不可为空！")
+    //@NotNull(message = "用户名不可为空！")
     private String userName;
     /**
      * 邮箱
