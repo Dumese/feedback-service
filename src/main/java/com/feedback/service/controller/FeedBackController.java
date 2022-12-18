@@ -27,10 +27,7 @@ public class FeedBackController {
     @Autowired
     private FeedBackService feedBackService;
 
-    /**
-     * 查询用户列表（从数据库）
-     */
-    // RequestMapping 请求类型  value = "/list" 请求路径（自定义） method = RequestMethod.GET 请求类型，GET post 请求
+
     @RequestMapping(value = "/get", method = RequestMethod.GET)
     // 接口的注解
     @ApiOperation(value = "根据id查询")
